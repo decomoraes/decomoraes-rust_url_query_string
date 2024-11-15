@@ -84,6 +84,9 @@
 //! ### Example with `snake_case`
 //!
 //! ```rust
+//! use serde::Serialize;
+//! use url_query_string::ToQueryString;
+//!
 //! #[derive(Serialize, ToQueryString)]
 //! #[serde(rename_all = "snake_case")]
 //! struct AnotherStruct {
