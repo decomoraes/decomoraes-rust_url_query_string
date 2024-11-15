@@ -9,10 +9,11 @@ edition = "2021"
 readme = "README.md"
 keywords = ["proc-macro", "struct", "url", "query", "string"]
 categories = [
-    "development-tools::cargo-plugins",
-    "data-formats",
+    "development-tools",
+    "development-tools::procedural-macro-helpers",
+    "parsing",
+    "web-programming",
     "web-programming::http-client",
-    "macros",
 ]
 homepage = "https://github.com/decomoraes/rust_url_query_string"
 documentation = "https://docs.rs/url_query_string"
