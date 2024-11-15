@@ -7,16 +7,7 @@ repository = "https://github.com/decomoraes/rust_url_query_string"
 license = "MIT"
 edition = "2021"
 readme = "README.md"
-keywords = [
-    "proc-macro",
-    "struct",
-    "url",
-    "query",
-    "string",
-    "serialization",
-    "serde",
-    "query-string",
-]
+keywords = ["proc-macro", "struct", "url", "query", "string"]
 categories = [
     "development-tools::cargo-plugins",
     "data-formats",
