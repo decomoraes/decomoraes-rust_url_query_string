@@ -1,0 +1,38 @@
+[package]
+name = "url_query_string"
+version = "0.1.0"
+authors = ["André de Moraes <deco.moraes@icloud.com>"]
+description = "A Rust procedural macro for generating methods to serialize structs into URL query strings. Provides seamless integration with serde and supports customizable serialization formats like camelCase and snake_case."
+repository = "https://github.com/decomoraes/rust_url_query_string"
+license = "MIT"
+edition = "2021"
+readme = "README.md"
+keywords = [
+    "proc-macro",
+    "struct",
+    "url",
+    "query",
+    "string",
+    "serialization",
+    "serde",
+    "query-string",
+]
+categories = [
+    "development-tools::cargo-plugins",
+    "data-formats",
+    "web-programming::http-client",
+    "macros",
+]
+homepage = "https://github.com/decomoraes/rust_url_query_string"
+documentation = "https://docs.rs/url_query_string"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+serde_qs = "0.7"
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }
